@@ -1,5 +1,5 @@
 /*
- * Gridism demonstration page
+ * Gridism demonstration stylesheet forked for Code For Italy
  * These styles are all just for the Gridism demo page.
  * You don’t need this styleshee in your project.
  */
@@ -51,6 +51,11 @@ a {
   transition: all .2s ease-in-out;
 }
 
+header {
+  background-color: #009246;
+  color: #FFFFFF;
+}
+
 header, section {
   border-bottom: 1px solid #eee;
 }
@@ -64,12 +69,14 @@ section, footer {
 }
 
 header h1 a {
-  color: #333;
+  color: #FFFFFF;
   border-bottom: none;
+  text-shadow: 0 1px 0 #666666
 }
 
 header p {
   margin: 2em 0;
+  text-shadow: 0 1px 0 #666666;
 }
 
 .lead {
@@ -108,6 +115,16 @@ p, pre {
 footer p {
   margin: 0;
   font-size: 1em;
+  color: #FFFFFF;
+  text-shadow: 0 1px 0 #666666;
+}
+
+footer {
+  background-color: #CE2B37;
+}
+
+footer a {
+  color: #FFFFFF;
 }
 
 @media (min-width: 960px){
