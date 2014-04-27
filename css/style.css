@@ -195,3 +195,7 @@ pre {
 .unit img {
   max-width: 100%;
 }
+
+.less-great-title h1 {
+  font-size: 3.5em;
+}
